@@ -18,6 +18,8 @@ class DestinationSearch extends Component {
     )
     return (
       <div className="bg">
+        <div className="bg-inner">
+          <div>
         <h1>Destination Search</h1>
         <div className="card">
           <input
@@ -34,6 +36,8 @@ class DestinationSearch extends Component {
               alt="search icon"
             />
           </span>
+            </div>
+          </div>
         </div>
         <ul className="grp">
           {finalList.map(each => (

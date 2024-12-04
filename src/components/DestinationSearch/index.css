@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg {
+  margin-left: 30px;
+}
+.ipt {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.ima {
+  height: 20px;
+  width: 35px;
+  padding-right: 15px;
+}
+.spa {
+  background-color: #f1f5f9;
+  height: 35px;
+  padding-top: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.grp {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}

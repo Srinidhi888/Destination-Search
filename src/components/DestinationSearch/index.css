@@ -2,6 +2,11 @@
 .bg {
   margin-left: 30px;
 }
+.bg-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .ipt {
   color: #0f172a;
   background-color: #f1f5f9;
@@ -31,5 +36,6 @@
 .grp {
   flex-wrap: wrap;
   display: flex;
+  list-style-type: none;
   flex-direction: row;
 }
